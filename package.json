@@ -1,0 +1,30 @@
+{
+  "name": "mark-it",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^0.1.0",
+    "next": "latest",
+    "npm": "^6.14.8",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-hook-form": "^6.7.2",
+    "react-query": "^2.17.2",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.3.5",
+    "styled-breakpoints": "^8.1.1",
+    "styled-components": "^5.2.1",
+    "styled-reset": "^4.2.3",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "license": "MIT"
+}
