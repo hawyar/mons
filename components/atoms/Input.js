@@ -26,7 +26,8 @@ export const Input = styled.input`
   height: 32px;
   width: 100%;
   cursor: text;
-  margin: 1rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   font-family: 'Manrope';
 
   ::placeholder {
@@ -57,10 +58,10 @@ export const TextArea = styled.textarea`
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
   padding: 10px 10px;
-  height: 90px;
   width: 100%;
   cursor: text;
-  margin: 1rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   font-family: 'Manrope';
 
   ::placeholder {

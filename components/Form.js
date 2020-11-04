@@ -1,5 +1,4 @@
 import React from 'react';
-import { useQuery } from 'react-query';
 import { useForm } from 'react-hook-form';
 import Experience from './Experience';
 import styled from 'styled-components';
@@ -25,8 +24,8 @@ const Form = () => {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
-        // 'Content-Type': 'application/x-www-form-urlencoded',
       },
+      body: JSON.stringify(data),
     });
   };
 
